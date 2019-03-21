@@ -2,7 +2,6 @@
     box-sizing:border-box;
     margin:0;
     padding:0;
-    border: 1px solid blue;
 }
 body{
     font-family: $font-family;
@@ -11,7 +10,6 @@ body{
     line-height: 1.4;
     background-color: $color-whiteSnow;
     color:$color-blackBatman;
-    
 }
 ul, ol {
     list-style: none;

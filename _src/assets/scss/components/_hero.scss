@@ -2,11 +2,16 @@
     min-height: 100vh;
     text-align: center;
 
+}
+
 .hero-image{
     background-image: url('../images/cover.jpg');
     background-color: $color-blackBatman;
-}    
-}
+    background-size: cover;
+    background-position: center;       
+
+
+}  
 
 .image__hero 
 {
@@ -16,8 +21,8 @@
 .hero-title{
     text-transform: uppercase;
     font-family: $font-family-titles;
-    margin-top:284px;
-    margin-bottom: 10px;
+    padding-top:284px;
+    padding-bottom: 10px;
     font-size:42px;
     font-style: normal;
     font-weight: 700;
@@ -34,3 +39,22 @@
     background-color: $color-whiteSnow;
     margin-bottom: 53px;
 }
+
+
+// .scroll-container{
+//     border-radius: 50%;
+//     width: 45px;
+//     height:45px;
+//     background-color: $color-whiteSnow;
+//     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+//     margin: 0px;
+//     padding:0px;
+//     position: absolute;
+//     left:50%;
+//     transform: translate(-50%, -50%);
+// }
+// .imgscroll__footer{
+//     margin-top:10px;
+//     width:20.6px;
+//     height: 24px;
+// }
