@@ -1,0 +1,30 @@
+// <main class="primary-section">
+//         <p class="subtitle__section">Insomnia Tips</p>
+//         <h2 class="title__section">Looking Through A Window </h2>
+//         <p class="text__section">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
+//         <button>
+//             Go
+//         </button>
+// </main>
+.primary-section{
+    width: 100vw;
+    height: 376px;
+    padding: 30px 15px 45px 45px;
+}
+.subtitle__section{
+    color: $color-blueLight;
+    font-size: 14px;    
+}
+.title__section{
+    font-family: $font-family-titles;
+    font-size: 24px;
+    margin-bottom: 15px;
+    width:290px;
+}
+.text__section{
+    color: $color-greyMouse;
+    margin-bottom: 30px;
+    font-size: 18px;
+    width:290px;
+}
+ 

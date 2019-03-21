@@ -2,18 +2,31 @@
     min-width: 100vw;
     min-height: 100vh;
     text-align: center;
-    
-  
+
+.hero-image{
+    background-image: url(../../images/cover.jpg);
+    background-color: $color-blackBatman;
+}    
+// ("(../images/cover.jpg)" POR QUÊ NO FUNCIONA LA IMAGEN EN BACK);
 }
 .hero-title{
     text-transform: uppercase;
+    font-family: $font-family-titles;
     margin-top:284px;
     margin-bottom: 10px;
     font-size:42px;
     font-style: normal;
-    font-weight: 700; 
+    font-weight: 700;
+    color:$color-whiteSnow; 
 }
-
 .hero-subtitle{
     margin-bottom:45px;
+    color:$color-whiteSnow; 
+}
+.hero-link{
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color: $color-whiteSnow;
+    margin-bottom: 53px;
 }

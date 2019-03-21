@@ -5,12 +5,12 @@
     border: 1px solid blue;
 }
 body{
-    font-family: 'Roboto Slab', serif;
+    font-family: $font-family;
     font-size: 16px;
     font-weight:400;
     line-height: 1.4;
-    background-color:white;
-    color: black;
+    background-color: $color-whiteSnow;
+    color:$color-blackBatman;
 }
 ul, ol {
     list-style: none;
