@@ -31,22 +31,46 @@
 
 .sells-section{
     background-color: $color-blueIce;
+    font-size: 18px;
     height: 624px;
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows:repeat(5,1fr); 
 }
 .title__sells-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-family-titles;
+    font-size: 24px;
+    font-weight:500;
 
+}
+.reason__sells-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .subtitle__sells-section{
-
+    font-family: $font-family-titles;
 }
 .text__sells-section{
-
+   line-height: 1.67;
+   width: 180px;
+   text-align: center;
 }
-
-
+.link__sells-section{
+    text-decoration: none;
+    background-color: $color-orangeFanta;
+    color: $color-whiteSnow;
+    border-radius:22.5px;
+    width: 184px;
+    height: 45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media all and (min-width:768px)
 {
