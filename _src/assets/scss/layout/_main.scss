@@ -29,5 +29,37 @@
     text-decoration:none;
 }
 
+.sells-section{
+    background-color: $color-blueIce;
+    height: 624px;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:repeat(5,1fr); 
+}
+.title__sells-section{
+
+}
+.subtitle__sells-section{
+
+}
+.text__sells-section{
+
+}
+
+
+
+@media all and (min-width:768px)
+{
+    .sells-section{
+        height: 397px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr; 
+    }
+    .title__sells-section{
+        grid-column-start:1;
+        grid-column-end:4;
+        text-align: center;
+    }
+}
 
  
