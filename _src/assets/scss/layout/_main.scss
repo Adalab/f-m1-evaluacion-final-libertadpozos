@@ -1,22 +1,20 @@
 
 .primary-section{
-    // min-width: 100vw;
-    height: 376px;
-    padding: 30px 15px 45px 15px;
+    margin: 30px 15px 45px 15px;
 }
 .subtitle__section{
     color: $color-blueLight;
-    font-size: 14px;    
+    font-size: 14px;
+      
 }
 .title__section{
     font-family: $font-family-titles;
     font-size: 24px;
     margin-bottom: 15px;
-    
 }
 .text__section{
     color: $color-greyMouse;
-    margin-bottom: 30px;
+    // padding-bottom: 30px;
     font-size: 18px;
 }
 .link__section{
@@ -25,10 +23,11 @@
     height: 45px;
     width:76px;
     padding:10px 25px 10px 26px;
+    margin-top:30px;
+    display:inline-block;
     border-radius: 22.5px;
     text-decoration:none;
 }
-
 .sells-section{
     background-color: $color-blueIce;
     font-size: 18px;
@@ -44,13 +43,13 @@
     font-family: $font-family-titles;
     font-size: 24px;
     font-weight:500;
-
 }
 .reason__sells-section{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 60px;
 }
 .subtitle__sells-section{
     font-family: $font-family-titles;
@@ -70,6 +69,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 @media all and (min-width:768px)
