@@ -1,60 +1,34 @@
 .hero-container{
-    min-height: 100vh;
-    text-align: center;
-
+    text-align: center;   
 }
-
 .hero-image{
-    background-image: url('../images/cover.jpg');
-    background-color: $color-blackBatman;
+ background-image: url('../images/cover.jpg');
     background-size: cover;
-    background-position: center;       
-
-
-}  
-
-.image__hero 
-{
-    padding: 0;
-    margin:0;
+    background-position: center; 
+    min-height: 100vh;
 }
 .hero-title{
     text-transform: uppercase;
     font-family: $font-family-titles;
     padding-top:284px;
-    padding-bottom: 10px;
     font-size:42px;
     font-style: normal;
     font-weight: 700;
     color:$color-whiteSnow; 
 }
 .hero-subtitle{
-    margin-bottom:45px;
+    padding-bottom:45px;
     color:$color-whiteSnow; 
 }
-.hero-link{
+.scrolldown-container{
     width: 45px;
     height: 45px;
-    border-radius: 22.5px;
+    border-radius: 50%;
     background-color: $color-whiteSnow;
-    margin-bottom: 53px;
+    margin:auto;
+}
+.imgscroll__hero{
+    margin-top: 15px;
+    width:20.6px;
 }
 
-
-// .scroll-container{
-//     border-radius: 50%;
-//     width: 45px;
-//     height:45px;
-//     background-color: $color-whiteSnow;
-//     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-//     margin: 0px;
-//     padding:0px;
-//     position: absolute;
-//     left:50%;
-//     transform: translate(-50%, -50%);
-// }
-// .imgscroll__footer{
-//     margin-top:10px;
-//     width:20.6px;
-//     height: 24px;
-// }
