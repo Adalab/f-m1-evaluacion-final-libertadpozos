@@ -36,7 +36,7 @@
 .sells-section{
     background-color: $color-blueIce;
     font-size: 18px;
-    height: 624px;
+    max-height: 624px;
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows:repeat(5,1fr); 
@@ -83,18 +83,35 @@
     }
 }
 
-@media all and (min-width:768px)
-{
+@media all and (min-width:768px){
     .sells-section{
-        height: 397px;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr; 
+        max-height: 397px;
     }
     .title__sells-section{
-        grid-column-start:1;
-        grid-column-end:4;
-        text-align: center;
+        grid-column:1/4;
+        grid-row:1/2;
+        font-size: 26px;
+    }
+    .first{
+        grid-column:1/2;
+        grid-row:2/3;
+    }
+    .second{
+        grid-column:2/3;
+        grid-row:2/3;
+    }
+    .third{
+        grid-column:3/4;
+        grid-row:2/3;
+    }
+    .more{
+        grid-column:2/3;
+        grid-row:3/4;
     }
 }
 
- 
+@media all and (min-width:1280px){
+    max-height: 427px;
+}
