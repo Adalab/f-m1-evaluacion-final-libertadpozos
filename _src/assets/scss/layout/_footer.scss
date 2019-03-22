@@ -28,6 +28,9 @@
     padding-bottom:45px;
     line-height: 2.14;
 }
+.fas{
+    color:red;
+}
 .scroll-container{
     border-radius: 50%;
     width: 45px;
@@ -65,8 +68,6 @@
         transform: scale(2);
     }
     }
-    
-
 @media all and (min-width:768px){
     .footer-content{
         max-height: 240px;
