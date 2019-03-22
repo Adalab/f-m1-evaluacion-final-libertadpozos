@@ -2,7 +2,7 @@
     text-align: center;   
 }
 .hero-image{
- background-image: url('../images/cover.jpg');
+    background-image: url('../images/cover.jpg');
     background-size: cover;
     background-position: center; 
     min-height: 100vh;  
@@ -16,10 +16,12 @@
     font-weight: 700;
     color:$color-whiteSnow; 
     line-height: 1.31;
+    text-shadow: 0 2px 3px $color-blackBatman;
 }
 .hero-subtitle{
     padding-bottom:45px;
     color:$color-whiteSnow; 
+    text-shadow: 0 2px 3px $color-blackBatman;
 }
 .scrolldown-container{
     width: 45px;
@@ -29,7 +31,7 @@
     margin:auto;
 }
 .imgscroll__hero{
-    margin-top: 15px;
+    margin-top: 18px;
     width:20.6px;
 }
  .link-scroll__hero:hover{
@@ -39,4 +41,14 @@
     border-radius: 50%;
     display: inline-block;
 } 
+@media all and (min-width:768px){
+    .hero-title{
+        font-size:80px;
+        line-height: 1.33;
+    }
+    .hero-subtitle{
+        font-size:24px;
+    }
+}
+
 
