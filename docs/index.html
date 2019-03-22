@@ -12,16 +12,19 @@
     </head>
     
     <body>
-        <nav class="menu">
-            <img class="icon__menu" src="../../assets/images/ico-menu.svg" alt="menu">
-        </nav>
-        <!-- cambiar a botón -->
+        <header>
+            <button class="menu">
+                <img class="icon__menu" src="../images/ico-menu.svg" alt="menu">
+            </button>
+        </header>
         <hero class="hero-container">
             <div class="hero-image">
                  <h1 class="hero-title ">Anonymus proxy</h1>
 
-                <p class="hero-subtitle">In hac habitasse platea dictumst.</p> <a class="hero-link"> <img src="../images/" alt="ico-scroll-down"></a>
+                <p class="hero-subtitle">In hac habitasse platea dictumst.</p>
+                <div class="scrolldown-container"> <a class="link-scroll__hero" href="#"> <img  class="imgscroll__hero"src="../images/ico-scroll-down.svg" alt="scroll down"></a>
 
+                </div>
             </div>
         </hero>
         <main>
@@ -58,8 +61,11 @@
             </section>
         </main>
         <footer class="home-footer">
+            <div class="scroll-container"> <a class="scroll_footer" href="#"> <img class="imgscroll__footer" src="../images/ico-arrow.svg" alt="scroll up"></a>
+
+            </div>
             <nav>
-                <ul class=list__footer>
+                <ul class="list__footer content">
                     <li class="item__list-footer"><a class="link__footer" target="_blank" href="#"> articles</a> 
                     </li>
                     <li class="item__list-footer"><a class="link__footer" target="_blank" href="#">books</a> 
@@ -71,7 +77,7 @@
                     <li class="item__list-footer"><a class="link__footer" target="_blank" href="#"> tips</a> 
                     </li>
                 </ul>
-                <ul>
+                <ul class="list__footer social">
                     <li class="item__list-footer"><a class="link__footer" target="_blank" href="#">twitter</a> 
                     </li>
                     <li class="item__list-footer"><a class="link__footer" target="_blank" href="#">instagram</a> 
@@ -79,8 +85,10 @@
                     <li class="item__list-footer"><a class="link__footer" target="_blank" href="#">mastodon.social</a> 
                     </li>
                 </ul>
-            </nav> <small> 2017</small>
+            </nav> <small class="year">©2017</small>
 
+            <p class="love">we heart components
+                <p>
         </footer>
     </body>
 
