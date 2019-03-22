@@ -1,8 +1,8 @@
-// <nav class="menu">
-// <img class="icon__menu" src="../../assets/images/ico-menu.svg" alt="menu">
-// </nav>
-
 .menu{
     display:inline-block;
     position:fixed;
+    background-color: $color-blueCerulean;
+    width: 44px;
+    height: 44px;
+    text-align: center;
 }
